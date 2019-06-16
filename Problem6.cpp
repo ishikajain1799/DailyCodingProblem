@@ -34,8 +34,6 @@ void reverse_string(string str){
 		st.push(s);
 	}
 	int j = 0;
-	cout << st.size() << endl;
-	cout << pat << endl;
 	for(int i = 0; pat[i]; i++){
 		if(pat[i] == 's'){
 			cout << st.top();
